@@ -1,0 +1,10 @@
+table,th,td{
+    border: 3px solid black;
+    color:red;
+    padding: 5px;
+
+}
+#ab{ 
+    color:blue;
+
+}

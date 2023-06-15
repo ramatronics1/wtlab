@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+<title>
+vowel
+</title>
+<script>
+function vowel()
+{
+  var str=prompt("Enter the string");
+ 
+   var st = str.toUpperCase();
+   for(var i=0;i<st.length;i++){
+     var ch = st.charAt(i);
+     if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U'){
+        break;
+     }
+   }
+     if(i<st.length){
+     alert("String found at pos"+(i+1));
+     }else{
+     alert("Not found");
+   }
+}
+
+</script>
+</head>
+<body>
+<button onclick="vowel()">Click here</button>
+</body>
+</html>
